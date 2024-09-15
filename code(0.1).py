@@ -1,8 +1,12 @@
-# How it works:
+# Version: 0.1
+
+# What it does:
 # This code demonstrates how to match candidates with interviewers based on their profiles.
-# The profiles are created by combining multiple attributes (skills, experience, education, certifications)
-# into a single string.
-# The profiles are then vectorized using TF-IDF and cosine similarity is calculated to find the best matches.
+
+# How it works:
+# 1. Profiles are created by combining multiple attributes (skills, experience, education, certifications) into a single string.
+# 2. The profiles are vectorized using TF-IDF.
+# 3. Cosine similarity is calculated to find the best matches between candidates and interviewers.
 
 # Project setup:
 # pip install scikit-learn
