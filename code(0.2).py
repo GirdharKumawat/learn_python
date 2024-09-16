@@ -51,21 +51,21 @@ candidates = [
 
 candidate_filters = [
     {
-        "Name": "Suraj",
+        "Name": "Interviewer 1",
         "Education": "B.Com",
         "Skills": ["Financial Analysis", "Accounting", "Taxation"],
         "Certifications": ["CA Foundation", "Excel Certification"],
         "Experience (Years)": 6
     },
     {
-        "Name": "Girdhar",
+        "Name": "Interviewer 2",
         "Education": "B.Tech",
         "Skills": ["Java", "Python", "R"],
         "Certifications": ["AI & ML by Coursera", "AWS Certified"],
         "Experience (Years)": 4
     },
     {
-        "Name": "Veer",
+        "Name": "Interviewer 3",
         "Education": "MBA",
         "Skills": ["Digital Marketing", "SEO", "Recruitment"],
         "Certifications": ["Google Analytics", "Digital Marketing Pro"],
@@ -113,6 +113,6 @@ for candidate_filter in candidate_filters:
     matched_candidates = sorted(matched_candidates, key=lambda x: x['Match Score'], reverse=True)
 
     # Display the matched candidates
-    print(f"\nFor interviewer {candidate_filter['Name']}: \n")
+    print(f"\nFor {candidate_filter['Name']}: \n")
     for matched_candidate in matched_candidates:
         print(f"Name: {matched_candidate['Name']} and Match Score: {matched_candidate['Match Score']}")
