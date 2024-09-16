@@ -34,7 +34,6 @@ candidates = [
      "certifications": "Google Cloud"}
 ]
 
-
 def create_weighted_profile(person):
     # Repeat skills for stronger emphasis (skills get more weight)
     skills_weight = person['skills'] * 2  # Multiply to give more weight to skills
