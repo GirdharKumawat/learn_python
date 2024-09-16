@@ -16,7 +16,7 @@
 # pip install scikit-learn
 
 # Kaggle notebook link:
-# https://www.kaggle.com/code/surajchopra16/notebook39b177831a
+# https://www.kaggle.com/code/surajchopra16/matching
 
 # Import necessary libraries
 import tensorflow_hub as hub
