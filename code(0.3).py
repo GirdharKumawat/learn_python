@@ -1,4 +1,4 @@
-# Version: 0.2
+# Version: 0.3
 
 # What it does:
 # Calculates the similarity between the candidate and the filter based on the education, skills, certifications, and experience.
