@@ -1,6 +1,7 @@
 # Version: 0.1
-#  Welcome Girdhar Kumawat 
 
+# Welcome Girdhar Kumawat and Suraj Chopra on python 3.8.5
+ 
 # What it does:
 # This code demonstrates how to match candidates with interviewers based on their profiles.
 
