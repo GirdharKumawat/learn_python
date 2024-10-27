@@ -1,5 +1,5 @@
 # Version: 0.1
-#  Welcome Girdhar Kumawat
+# Welcome Girdhar Kumawat and Suraj Chopra
 
 # What it does:
 # This code demonstrates how to match candidates with interviewers based on their profiles.
